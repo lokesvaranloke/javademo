@@ -20,6 +20,7 @@ public class s04casting {
 		
 		b1=(byte)i1;
 		System.out.println(b1);
+		
 	}
 
 }
