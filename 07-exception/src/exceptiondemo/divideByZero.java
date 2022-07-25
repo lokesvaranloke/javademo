@@ -20,9 +20,8 @@ public class divideByZero {
 		} catch(ArithmeticException e) {
 			System.out.println("Divition by zero not possible");
 		}
-		
-		
-		System.out.println("Other logics");
+
+		System.out.println("Other logics are continued");
 
 	}
 
