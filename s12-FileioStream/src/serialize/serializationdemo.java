@@ -9,7 +9,7 @@ public class serializationdemo {
 
 	public static void main(String[] args) {
 		
-		try(FileOutputStream fos = new FileOutputStream("C:\\Javafd\\New folder\\emp3.ser");
+		try(FileOutputStream fos = new FileOutputStream("C:\\Javafd\\temp\\emp.ser");
 				ObjectOutputStream oos = new ObjectOutputStream(fos);){
 			
 			employee e1 = new employee(1,"vijay",25000,1234);

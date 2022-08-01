@@ -11,7 +11,7 @@ public class printwriterdemo {
 		FileWriter fw=null;
 		PrintWriter pw=null;
 		try {
-			fw = new FileWriter("C:\\Javafd\\New folder\\appendtest.txt");
+			fw = new FileWriter("C:\\Javafd\\New folder\\appendtest.txt",true);
 			pw = new PrintWriter(fw);
 			
 			pw.println("Some new text is begin added");

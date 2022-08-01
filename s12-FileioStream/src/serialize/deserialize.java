@@ -9,7 +9,7 @@ public class deserialize {
 
 	public static void main(String[] args) {
 
-		try (FileInputStream fis = new FileInputStream("C:\\Javafd\\New folder\\emp3.ser");
+		try (FileInputStream fis = new FileInputStream("C:\\Javafd\\temp\\emp.ser");
 				ObjectInputStream ois = new ObjectInputStream(fis);) {
 
 			employee e1 = (employee) ois.readObject();
