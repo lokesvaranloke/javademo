@@ -8,11 +8,11 @@ public class arrayIndexx {
 		try {
 			System.out.println("Length of array :" + a.length);
 			System.out.println("Elements are :");
-			for (int i = 0; i < a.length; i++) {
+			for (int i = 0; i <=a.length; i++) {
 				System.out.print(a[i] + " ");
 			}
 		} catch (Exception e) {
-			
+			System.out.println("\nArray size is 4 only");
 		}
 		System.out.println("\nElements are printed");
 

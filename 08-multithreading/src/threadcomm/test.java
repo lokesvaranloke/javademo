@@ -13,6 +13,7 @@ public class test {
 		wt.start();
 		synchronized (wt) {
 			try {
+				System.out.println(tname+" : waiting");
 				wt.wait();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
